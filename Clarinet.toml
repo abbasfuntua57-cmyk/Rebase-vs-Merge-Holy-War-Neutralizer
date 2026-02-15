@@ -4,10 +4,17 @@ description = ""
 authors = []
 telemetry = true
 cache_dir = "./.cache"
+requirements = []
 
-# [contracts.counter]
-# path = "contracts/counter.clar"
-# epoch = "latest"
+[contracts.git-conflict-resolution-panic-level]
+path = "contracts/git-conflict-resolution-panic-level.clar"
+clarity_version = 3
+epoch = "latest"
+
+[contracts.clean-history-obsession-productivity-cost]
+path = "contracts/clean-history-obsession-productivity-cost.clar"
+clarity_version = 3
+epoch = "latest"
 
 [repl.analysis]
 passes = ["check_checker"]
